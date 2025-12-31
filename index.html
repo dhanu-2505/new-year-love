@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy New Year My Love ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #ffd6e8, #d6f0ff);
+    color: #5a0f3c;
+    text-align: center;
+}
+
+/* 🌸 TAP TO BEGIN SCREEN */
+#tapScreen {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #fbe3f0, #e3f1ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#tapText {
+    font-size: 28px;
+    color: #7a1f4b;
+    animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+    100% { opacity: 0.6; transform: scale(1); }
+}
+
+/* ❤️ Heart */
+.heart {
+    font-size: 80px;
+    margin: 30px 0;
+    animation: beat 1.2s infinite, shimmer 3s infinite;
+}
+@keyframes beat { 50% { transform: scale(1.3); } }
+@keyframes shimmer { 50% { text-shadow: 0 0 25px #ff69b4; } }
+
+/* 📸 Sections */
+.section { margin: 80px 0; }
+
+/* 📸 Photos */
+.photo {
+    width: 260px;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    animation: float 6s ease-in-out infinite;
+}
+.left { margin-left: 10%; margin-right: auto; }
+.right { margin-right: 10%; margin-left: auto; }
+@keyframes float { 50% { transform: translateY(-30px); } }
+
+/* 💬 Text */
+.text {
+    max-width: 700px;
+    margin: 50px auto;
+    font-size: 22px;
+    line-height: 1.8;
+    padding: 0 15px;
+}
+
+/* 🌸 Flowers */
+.flower {
+    position: fixed;
+    top: -50px;
+    font-size: 30px;
+    animation: fall linear infinite;
+}
+@keyframes fall {
+    to { transform: translateY(120vh) rotate(360deg); }
+}
+
+/* 🧸 Teddy */
+.teddy {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    animation: hug 2s infinite;
+}
+@keyframes hug { 50% { transform: translateX(-50%) scale(1.1); } }
+
+/* 📱 Mobile fix */
+@media (max-width: 768px) {
+    .left, .right { margin: 0 auto; }
+    .photo { max-width: 320px; }
+    .text { font-size: 18px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🌸 TAP TO BEGIN -->
+<div id="tapScreen">
+    <div id="tapText">Tap to Begin ❤️</div>
+</div>
+
+<!-- 🎵 MUSIC -->
+<audio id="bgMusic" loop>
+    <source src="pothavillaye.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.getElementById("tapScreen").addEventListener("click", function () {
+    document.getElementById("bgMusic").play();
+    this.style.display = "none";
+});
+</script>
+
+<div class="heart">❤️</div>
+<h1>Happy New Year My Love 💗</h1>
+
+<!-- SECTION 1 -->
+<div class="section">
+    <img src="photo2.jpg" class="photo left">
+</div>
+<div class="text">
+Enaku yepdi start pandrathu soldrathunu therila...
+Na ippa irukarathuku mulu reason ne mattum tha...ne illana na ena airupenu enaku therila...
+Ne tha da ennoda motha ulagame...Oru vishiyam ithana naala na unta sonnathey illa....
+Unkuda irukum pothu mattum tha naan nana iruken safe ah secured ah nimmathi ah yendha thoughts tension illama sandhoshama iruken...
+Solla pona en appa va vida ippa enaku unmela tha love adhigama iruku....
+Avru enna yepdilam pathukitaro nee adhey maari pathukara avara vida nallave pathukara.....
+Unakulla neraiya time naa en Appa va pathuruken....
+Ne en life kulla vandhadhum ellame maariduchu....
+</div>
+
+<!-- SECTION 2 -->
+<div class="section">
+    <img src="photo3.jpg" class="photo right">
+</div>
+<div class="text">
+Innum yethana jenmam eduthalum enaku nee tha venum...ne mattum tha venum....
+Enaku unna yen puduchuthu na yen unna love pannenu unaku theriyuma enanu enaku therila...
+Ana adha neraiya time unta solliruken unaku innum adhula yedhachu doubt irundha ne enta yedhunalum kelu na solluven...
+Ne mathavanga maari konjam kuda illa...unna maari ne mattum tha....
+Adhey maari unna maari yarum enna idhu varaikum pathukitadhum illa ivlo love care kuduthathum ila...inimel yarum thara porathum illa unna thavara...
+Na unna neraiya hurt panniruken kova paduthiruken ellathukum neraiya dissapoint panniruken ellathukum Sorry Sorry...
+Enna ivlo love panni love care kuduthu kolandha maari pathukarathuku romba Thanks...
+</div>
+
+<!-- SECTION 3 -->
+<div class="section">
+    <img src="photo4.jpg" class="photo left">
+</div>
+<div class="text">
+Let's move together into this new year with heart full of memories and love....
+Yeppa ena nadandhalum enaku nee mattum tha unaku naa mattum tha...
+Inimel unna yendha vishiyathulayum dissapoint panna maten...Unaku podhum podhumndra alavuku love kudupen...
+I am totally addicted to you. Intha New Year la irundhu namma pudhusa nammala mattum vachu oru life start pannalama cheellooo❤️
+Iruka iruka enaku unmela iruka love adhigam aitey tha iruku yeppayum konjam kuda koraiyathu🫶
+</div>
+
+<!-- SECTION 4 -->
+<div class="section">
+    <img src="photo5.jpg" class="photo right">
+</div>
+<div class="text">
+Love you da Mama 😘💗<br>
+Love You😘💗!!<br>
+Love you 😘🫂💗!!!
+</div>
+
+<div class="teddy">😘🫂😘</div>
+<div class="text">
+Forever your PAPA 😘<br>
+HAPPY NEW YEAR DA THANGOO 💗💗
+</div>
+<!-- 🌼 Flowers -->
+<script>
+const flowers = ["🌸","🌺","🌼","🌷","💐","💗"];
+for(let i=0;i<25;i++){
+    let f=document.createElement("div");
+    f.className="flower";
+    f.innerHTML=flowers[Math.floor(Math.random()*flowers.length)];
+    f.style.left=Math.random()*100+"vw";
+    f.style.animationDuration=(6+Math.random()*6)+"s";
+    document.body.appendChild(f);
+}
+</script>
+
+</body>
+</html>
